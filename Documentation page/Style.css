@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+body {
+    font-family: 'Assistant', monospace;
+   overflow:scroll;
+   width: 100%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+    word-wrap: normal;
+    align-items: center;
+    text-align:start;
+  }
+
+  li a:hover {
+    background-color: rgb(71, 71, 70);
+    color: white;
+  }
+
+  header {
+      margin: 0 auto;
+      text-align: center;
+      text-transform:capitalize;
+      padding: 1rem;
+      text-decoration: underline;
+      font-size: 1.5rem;
+  }
+  .codebox {
+    white-space: pre-line;
+    background: #d2f7ec;
+    display: block;
+    padding: 8px;
+    margin: 10px ;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  main {
+       padding-left: 24%;
+    padding-top: 3.5%;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 65%;
+      margin: -10px;
+      flex-wrap: wrap;
+      background: linear-gradient(to right, rgba(226, 214, 218, 0.795), rgba(255, 255, 255, 0.6));   
+  }
+
+  nav {
+    width: 22.5vw;
+    background-color: rgb(245, 238, 227); 
+    /*background-color: #e1d1b4;*/
+    margin: -10px;
+    padding: -.5rem;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+ 
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background: #d2f7ec;
+  width: 100%;
+}
+
+@media  (max-width: 815px) {
+  
+  #navbar ul {
+    border: 1px ;
+    height: 207px;
+  }
