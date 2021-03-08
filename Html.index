@@ -1,0 +1,29 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <header>
+    <h1 id="title">Eckhart Tolle</h1>
+  </header>
+  <main id="main">
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Eckhart_Tolle_front.jpg" alt="Eckhart Tolle">
+      <h2 id="img-caption">"Nonforgiveness is often toward another or yourself,but it's mostly toward a situation or condition past,present or future that your mind refuses to accept."</h2>
+    </div>
+    <div id="tribute-info">
+      <h3>Spiritual teacher and best-selling author</h3>
+      <p>He is a German-born resident of Canada ,best known as the author of The Power of Now and A New Earth: Awakening to Your Life's Purpose. In 2008, The New York Times called Tolle, "the most popular spiritual author in the United States." In 2011, he was listed by Watkins Review as the most spiritually influential person in the world..</p>
+      <hr>
+      <p>Tolle said he was depressed for much of his life until age 29 when he experienced an inner transformation. He then spent several years wandering in a state of deep bliss before becoming a spiritual teacher. He moved to Vancouver, British Columbia, in 1995 and currently divides his time between Canada and California. He began writing his first book, The Power of Now, in 1997 and it reached The New York Times Best Seller list in 2000..</p>
+      <hr>
+      <p>One night in 1977, at the age of 29, after having suffered from long periods of depression, Tolle says he experienced an inner transformation. That night he awakened from his sleep, suffering from feelings of depression that were almost unbearable, but then experienced a life-changing epiphany.</p>
+        <hr>
+      <p>Tolle recalls going out for a walk in London the next morning, and finding that everything was miraculous, deeply peaceful. Even the traffic. and he began to feel a strong underlying sense of peace in any situation.He stopped studying for his doctorate, and for a period of about two years after this he spent much of his time sitting, in a state of deep bliss, on park benches in Russell Square, Central London, watching the world go by. He stayed with friends, in a Buddhist monastery, or otherwise slept rough on Hampstead Heath. His family thought him irresponsible, even insane. He changed his first name from Ulrich to Eckhart by some reports this was in homage to the German philosopher and mystic, Meister Eckhart.</p>
+    </div>
+  </main>
+  <footer>
+    <p>Click  <a id="tribute-link" href="https://en.wikipedia.org/wiki/Eckhart_Tolle" target="_blank"> for more</a>  detailed information about Eckhart Tolle's career.</p>
+<p id="source">SOURCE : official wikipedia entry</p>    
+  </footer>
+
+
+
+
