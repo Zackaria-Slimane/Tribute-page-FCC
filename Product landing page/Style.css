@@ -1,0 +1,117 @@
+*{ margin: 0 auto;
+}
+main {background: linear-gradient(to right, rgba(179, 49, 88, 0.795), rgba(255, 255, 255, 0.6)), url('https://wallpapercave.com/wp/NnulFcU.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: relative;
+  }
+  
+  
+img {
+  height: 70px;
+  vertical-align: middle;
+  
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f7f5dd;
+    position: fixed;
+    display: inline;
+  
+  }
+  
+  li {
+    display: inline-flex;
+  }
+  
+  li a  {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: -5px;
+  
+  }
+  
+  
+  li a:hover {
+    background-color:#a17798;
+  }
+  
+  .active {
+    background-color: rgb(219, 57, 28);
+  margin: 5px 5px 5px 5px;
+  }
+
+  header {
+    position:sticky;
+    top:0;
+  }
+
+  #form {
+   display: inline-flex;
+   padding: 5px;
+   margin-left: 37%;
+   margin-top: 15px;
+  }
+
+section {
+width: 70%;
+padding: 15rem;
+text-align: center;
+display: absolute;
+top: 50%;
+left: 50%;
+  }
+
+#video {
+  display: flex;
+}
+  #submit {
+    background-color: #a17798;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 15px;
+  }
+
+#footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#f7f5dd;
+  text-align: center;
+
+}
+.footer {
+  margin-top: 0%;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+#wines {
+  margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.card {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 25px;
+	border-radius: 3px;
+  width: 33%;
+}
