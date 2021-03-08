@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+@import url('https://css.gg/home.css');
+@import url('https://css.gg/mail.css');
+@import url('https://css.gg/twitter.css');
+@import url('https://css.gg/code-slash.css');
+@import url('https://css.gg/git-fork.css');
+
+*{
+  font-family: 'Assistant', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+nav {
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+ top: 0; 
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    overflow:hidden;
+    background-color: #f0ecc0bd;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  li a  {
+    display: flex;
+    color: black;
+    padding: 1.2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color :#b4aa99;
+  }
+  
+
+  #welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    color:white;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(32deg,rgba(2, 2, 2, 0.918), rgba(177, 181, 216, 0.1)),  url("https://i.ibb.co/RCmvxZC/tricity.jpg");
+    background-size: cover;    
+  }
+
+  #projects {
+    background: linear-gradient(145deg,rgba(37, 37, 37, 0.466), rgb(154, 156, 172)), url("https://i.ibb.co/CpLF7Vq/adob.jpg");
+    height: 100%;
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ 
+ 
+
+  .main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  margin-bottom: 0 auto;
+  justify-items: center;
+  padding: 1rem;
+  height: 100%;
+  }
+
+  .projects-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: capitalize;
+    padding: 1.5rem;
+  }
+  
+  .pro-title {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    background-color:#fff8ec;
+  }
+
+ /*  things to know about me section 
+ .filler {
+    background: linear-gradient(63deg,rgba(1, 9, 24, 0.5), rgba(206, 216, 177, 0.8));  /*url("https://i.ibb.co/XYWFy0M/whitetr.jpg");
+    background-size: cover;
+    height: 100%;
+  } */ 
+
+  .welcome-title {
+    border: 5px wheat ;
+    border-style: double;
+    justify-self: center;
+    padding: 1.2rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 3em;
+  }
+  .title-text {
+    padding: .5rem;
+    font-size: 1.7rem;
+  }
+  .name,.dev {
+    color: wheat;
+    text-transform: capitalize;
+    text-decoration:underline;
+  }
+
+  .title-text {
+    font-size: 1.5em;
+  }
+ 
+  .gg-home {
+    display: flex;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  .project-tile {
+    background-color: #fff8ec;
+    border-radius: 10px;
+    border: #fff8ec 2px solid;
+    padding: .5rem;
+  }
+ 
+  .contact-sect {
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(145deg,rgba(37, 37, 37, 0.466), rgb(154, 156, 172)), url("https://i.ibb.co/CpLF7Vq/adob.jpg");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+  }
+
+  .contact-links {
+   display: flex;
+  justify-content:space-around ;
+  align-content: center;
+   padding: 1.2rem;
+   width: 100rem;
+  }
+
+  .btn-link  {
+    text-decoration: none;
+    color: black;
+  }
+  .gg-mail , .gg-code-slash , .gg-git-fork , .gg-twitter {
+    display: flex;
+    padding: .1rem;
+    margin :0 auto;
+  }
+
+@media  (max-width: 815px) {
+  
+  #navbar ul {
+    border: 1px ;
+    height: 207px;
+  }
