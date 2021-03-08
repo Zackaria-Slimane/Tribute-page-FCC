@@ -1,0 +1,58 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body>
+  <header>
+    <h1 id="title"><em>How did you get into coding survey form</em></h1>
+    <p id="description"><i>Thank you for nurishing my curiousity.</i></p>
+  </header>
+  <main>
+<form id="survey-form" action="aserver.html" method="post">
+  <div>
+  <label id="name-label" class="class-group" label for="name">Name</label>
+    <input id="name" type="text" class="form-control" name="name" placeholder="enter your name" required>
+    
+  <br>
+  <label id="email-label" class="class-group" label for="email"> Email</label>
+    <input id="email" type="email" class="form-control" placeholder="Enter your email" required>
+    
+  <br>
+  <label id="number-label" class="class-group" label for="number"> Age</label>
+  <input id="number" type="number" class="form-control" min="0" max="90" placeholder="enter your age" required>
+    </div> <br>
+
+    <div class="form-group" id="dropdown">
+        <label for="occupation">What's your current occupation</label> 
+        <select class="form-control" name="occupation" id="occupation">
+            <option value =" disabled">select an occupation</option>
+            <option value="webdev">In web development</option>
+            <option value="student">A Student</option>
+            <option value="other">In other Fields</option>
+     </select>
+    </div>
+  <div  class="form-group" required>
+    <p>How did you get into coding ?</p>
+    <label for="college degree">
+      <input type="radio" name="college degree-bootcamp-self taught" value="college degree">College degree</label>
+    <label for="bootcamp">
+      <input type="radio" name="college degree-bootcamp-self taught" value="bootcamp">Bootcamp</label>
+  <label for="self taught">
+    <input type="radio" name="college degree-bootcamp-self taught" value="self taught">Self taught</label>
+  </div>
+  <div class="form-group" required>
+    <p>What career path are you considering</p>
+    <label for="front end">
+      <input type="checkbox" name="front end" value="front end">Front end dev</label>
+      <label for="back end">
+        <input type="checkbox" name="back end" value="back end">Back end dev</label>
+  </div>
+  <div class="form-group">
+    <br>
+<label for="comment">Feel free to add any comments:</label>
+        <textarea name="comment" id="comment" class="form-control" rows="10" placeholder="enter your comments here"></textarea>
+  </div>
+  <div>
+    <button class="button" type="submit" value="submit" id="submit">Submit</button>
+    </div>
+    </form>
+  </main>
+</body>
